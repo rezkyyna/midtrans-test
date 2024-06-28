@@ -2,5 +2,6 @@ Feature: Activity
 
 #TCC.HW.001
   Scenario: Show Activity Menu
+    Given User enter URL Event
     When User Login
-    Then User go to register menu
+    When User go to register menu

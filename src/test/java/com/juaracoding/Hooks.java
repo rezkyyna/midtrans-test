@@ -20,7 +20,7 @@ public class Hooks {
 
     @Before
     public static void setUp(){
-        DriverSingleton.getInstance(Constants.FIREFOX);
+        DriverSingleton.getInstance(Constants.CHROME);
         driver = DriverSingleton.getDriver();
         TestCases[] test = TestCases.values();
         extentTest = reports.startTest(test[Utils.testCount].getTestCaseName());

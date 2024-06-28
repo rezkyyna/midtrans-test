@@ -29,27 +29,13 @@ public class TestRegisterPage {
     public void user_login() {
         driver.get(Constants.URL);
         registerPage.loginform();
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+//        throw new io.cucumber.java.PendingException();
     }
 
-//    @When("User Login")
-//    public void user_login(){
-//        driver.get(Constants.URL);
-//        registerPage.loginform();
-//    extentTest.log(LogStatus.PASS, "User Login");
-//    }
-@Then("User go to register menu")
+@When("User go to register menu")
 public void user_go_to_register_menu() {
     registerPage.registerForm();
     extentTest.log(LogStatus.PASS, "User go to register menu");
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
 }
-//    @Then("User go to register menu")
-//    public void user_go_to_register_menu(){
-//        registerPage.registerForm();
-//        extentTest.log(LogStatus.PASS, "User go to register menu");
-//    }
 
 }
