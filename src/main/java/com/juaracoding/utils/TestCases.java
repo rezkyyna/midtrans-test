@@ -3,7 +3,11 @@ package com.juaracoding.utils;
 public enum TestCases {
 
     //Register
-    T1("Show Activity Menu");
+    T1("Invalid Password Login"),
+    T2("Success Login Page"),
+
+    T3("Register Foto Page");
+
 
 
     private String testCaseName;
