@@ -15,7 +15,6 @@ public class TransaksiPage {
     }
     @FindBy(xpath = "//a[@class='btn buy']")
     WebElement buyNowButton;
-
     @FindBy(xpath = "//div[@class='cart-checkout']")
     WebElement checkoutButton;
     @FindBy(xpath = "//div[@class='promo-button-wrapper']//*[name()='svg']")
@@ -24,7 +23,7 @@ public class TransaksiPage {
     WebElement checklistPromo;
     @FindBy(xpath = "//button[normalize-space()='Use']")
     WebElement useButtonPromo;
-    @FindBy(xpath = "//*[contains(text(),'demo store')]")
+    @FindBy(xpath = "//nav[@id='header']/div[2]/div/div/div[2]/div/p")
     WebElement txtOrderId;
 
     public void setCheckoutButton(){
