@@ -1,8 +1,8 @@
-package com.juaracoding.drivers;
+package com.rezkyyna.drivers;
 
-import com.juaracoding.utils.Constants;
-import com.juaracoding.drivers.strategies.DriverStrategy;
-import com.juaracoding.drivers.strategies.DriverStrategyImplementer;
+import com.rezkyyna.utils.Constants;
+import com.rezkyyna.drivers.strategies.DriverStrategy;
+import com.rezkyyna.drivers.strategies.DriverStrategyImplementer;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 

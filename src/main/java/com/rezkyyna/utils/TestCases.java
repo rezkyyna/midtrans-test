@@ -1,4 +1,4 @@
-package com.juaracoding.utils;
+package com.rezkyyna.utils;
 
 public enum TestCases {
 

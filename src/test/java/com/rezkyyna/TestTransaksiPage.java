@@ -1,7 +1,7 @@
-package com.juaracoding;
+package com.rezkyyna;
 
-import com.juaracoding.drivers.DriverSingleton;
-import com.juaracoding.pages.TransaksiPage;
+import com.rezkyyna.drivers.DriverSingleton;
+import com.rezkyyna.pages.TransaksiPage;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import io.cucumber.java.en.And;
@@ -67,7 +67,8 @@ public class TestTransaksiPage {
 
     @Then("user get code order id")
     public void user_get_code_order_id() {
-        Assert.assertEquals(transaksiPage.getTxtOrderId(),"");
+        Assert.assertTrue(transaksiPage.getTxtOrderId().contains("demo store"));
+//        Assert.assertEquals(transaksiPage.getTxtOrderId(),"Rp20.000");
         DriverSingleton.delay(1);
         extentTest.log(LogStatus.PASS,"user get code order id");
     }

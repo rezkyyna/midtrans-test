@@ -1,4 +1,4 @@
-package com.juaracoding.drivers.strategies;
+package com.rezkyyna.drivers.strategies;
 
 import org.openqa.selenium.WebDriver;
 

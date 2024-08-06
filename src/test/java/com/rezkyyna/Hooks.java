@@ -1,9 +1,9 @@
-package com.juaracoding;
+package com.rezkyyna;
 
-import com.juaracoding.drivers.DriverSingleton;
-import com.juaracoding.utils.Constants;
-import com.juaracoding.utils.TestCases;
-import com.juaracoding.utils.Utils;
+import com.rezkyyna.drivers.DriverSingleton;
+import com.rezkyyna.utils.Constants;
+import com.rezkyyna.utils.TestCases;
+import com.rezkyyna.utils.Utils;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;

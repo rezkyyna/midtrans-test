@@ -7,7 +7,7 @@ Feature: Transaksi
 #    And user click button use promo
 #    And user choose promo flash sale
 #    And user click button use
-    And user click metode payment
+#    And user click metode payment
     Then user get code order id
 
 

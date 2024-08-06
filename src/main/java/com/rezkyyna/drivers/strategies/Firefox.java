@@ -1,8 +1,6 @@
-package com.juaracoding.drivers.strategies;
+package com.rezkyyna.drivers.strategies;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Firefox implements DriverStrategy {

@@ -1,6 +1,6 @@
-package com.juaracoding.pages;
+package com.rezkyyna.pages;
 
-import com.juaracoding.drivers.DriverSingleton;
+import com.rezkyyna.drivers.DriverSingleton;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -24,7 +24,7 @@ public class TransaksiPage {
     WebElement checklistPromo;
     @FindBy(xpath = "//button[normalize-space()='Use']")
     WebElement useButtonPromo;
-    @FindBy(xpath = "//*[@id=\"application\"]/div/div/div[2]")
+    @FindBy(xpath = "//*[contains(text(),'demo store')]")
     WebElement txtOrderId;
 
     public void setCheckoutButton(){

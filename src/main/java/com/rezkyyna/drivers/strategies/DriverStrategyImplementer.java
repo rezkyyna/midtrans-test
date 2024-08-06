@@ -1,4 +1,4 @@
-package com.juaracoding.drivers.strategies;
+package com.rezkyyna.drivers.strategies;
 
 public class DriverStrategyImplementer {
     public  static DriverStrategy chooseStrategy(String strategy){
